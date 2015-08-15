@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Helper</title>
+  <style>
+    #output {
+      border: 3px solid red;
+      min-height: 100px;
+    }
+    textarea {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Create JSON interaction</h1>
+    <p>FtheBuilder</p>
+  </header>
+  <section>
+    <h2>Make request</h2>
+    <label for="take">Take saved request: </label>
+    <select id="take"></select>
+    <form action="#">
+      <div>
+        <label for="">
+          URL <input type="text" name="url">
+        </label>
+      </div>
+      <div>
+        <label for="">
+          JSON <textarea name="json" cols="80" rows="20"></textarea>
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Send!">
+      </div>
+    </form>
+    <button id="save">Save</button>
+  </section>
+  <section>
+    <h2>Output</h2>
+    <pre id="output"></pre>
+  </section>
+  <script data-main="main" src="require.js"></script>
+</body>
+</html>
