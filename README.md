@@ -21,3 +21,5 @@ AJAX API Helper
     "canUseIdentifier": false
   }
 </pre>
+
+<p>You can also save your requests in browser for later tests</p>
